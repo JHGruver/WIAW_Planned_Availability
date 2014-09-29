@@ -1,0 +1,169 @@
+
+/*Header*/
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.header{
+    background-color: white;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #cbcbcb;
+}
+span.back{
+    float: left;
+    padding-top: 2%;
+    font: 600 3em 'Helvetica Neue';
+    color: #cbcbcb;
+}
+h1.title{
+    text-align: center;
+    color: #cbcbcb;
+    padding-right: 3%;
+}
+span.save{
+    float: right;
+    margin-top: -8%;
+    color: #cbcbcb;
+}
+
+/*Clock Section*/
+
+div.clockWrapper{
+    margin: 0 auto;
+    margin-top: 5.6338028169014084507042253521127%;
+    height: 0;
+    padding-bottom: 72%;
+    width: 72%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+div.outerClock{
+    position: absolute;
+    font: 300 2em 'Helvetica Neue';
+    color: #cbcbcb;
+
+}
+
+.twelve, .six{
+    left: 50%;
+}
+.one, .five{
+    left: 71.875%;
+}
+.two, .four{
+    left: 84.375%;
+}
+.seven, .eleven{
+    left: 28.125%;
+}
+.eight, .ten{
+    left: 15.625%;
+}
+.one, .eleven{
+    top: 17.605633802816901408450704225352%;
+}
+.two, .ten{
+    top: 26.408450704225352112676056338028%;
+}
+.three, .nine{
+    top: 35.211267605633802816901408450704%;
+}
+.four, .eight{
+    top: 44.01408450704225352112676056338%;
+}
+.five, .seven{
+    top: 51.936619718309859154929577464789%;
+}
+.twelve{
+    top: 14.084507042253521126760563380282%;
+}
+.six{
+    top: 55.809859154929577464788732394366%;
+}
+.three{
+    left: 87.5%;
+}
+.nine{
+    left: 13.28125%;
+}
+
+div.smallClockWrapper{
+    margin: 0 auto;
+    margin-top: 13.75%;
+    width: 60%;
+    height: 60%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+div.innerClock{
+    position: absolute;
+    font: 300 1.5em 'Helvetica Neue';
+    color: #cbcbcb;
+}
+.twelveIn, .sixIn{
+    left: 50.3125%;
+}
+.oneIn, .fiveIn{
+    left: 62.5%;
+}
+.twoIn, .fourIn{
+    left: 70.3125%;
+}
+.sevenIn, .elevenIn{
+    left: 37.5%;
+}
+.eightIn, .tenIn{
+    left: 30.46875%;
+}
+.oneIn, .elevenIn{
+    top: 24.647887323943661971830985915493%;
+}
+.twoIn, .tenIn{
+    top: 29.929577464788732394366197183099%;
+}
+.threeIn, .nineIn{
+    top: 35.915492957746478873239436619718%;
+}
+.fourIn, .eightIn{
+    top: 40.933098591549295774647887323944%;
+}
+.fiveIn, .sevenIn{
+    top: 45.334507042253521126760563380282%;
+}
+.twelveIn{
+    top: 22.447183098591549295774647887324%;
+}
+.sixIn{
+    top: 47.975352112676056338028169014085%;
+}
+.threeIn{
+    left: 73.4375%;
+}
+.nineIn{
+    left: 28.125%;
+}
+
+/*Calender Section*/
+
+div.calenderWrapper{
+    font: 300 1.75em 'Helvetica Neue';
+    color: #cbcbcb;
+    padding-top: 20%;
+}
+div.monthYear{
+    font: 600 1.25em 'Helvetica Neue';
+    padding-left: 10%;
+    position: absolute;
+}
+div.tableWrapper{
+    padding-left: 20%;
+}
+table.calender{
+    border-spacing: 1em;
+}
